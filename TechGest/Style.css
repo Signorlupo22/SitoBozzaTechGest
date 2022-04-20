@@ -174,8 +174,16 @@ section{
 
 
 .Copi{
-    height: 100vh;
+    height: 20vh;
     background-color: #4CB0C8;
+}
+.Copi h3{
+    padding-top: 8vh;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 0;
+    align-items: center;
+    width: 95vw;
 }
 
 .red{
@@ -254,9 +262,7 @@ section{
     fill: #23B5D3;
 }
 
-
-
-.custom-shape-divider-bottom-1650483930 {
+.wave4 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -266,7 +272,7 @@ section{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1650483930 svg {
+.wave4 svg {
     position: relative;
     display: block;
     width: calc(103% + 1.3px);
@@ -274,6 +280,24 @@ section{
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1650483930 .shape-fill {
+.wave4 .shape-fill {
     fill: #4CB0C8;
 }
+
+::-webkit-scrollbar{
+    width: 1em;
+  }
+  
+
+::-webkit-scrollbar-trak{
+    background: #031926;
+}
+  
+  ::-webkit-scrollbar-thumb{
+    background: #75ABBC;
+    border-radius:0.1em;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+  background: #FF6362;
+  }
+  
