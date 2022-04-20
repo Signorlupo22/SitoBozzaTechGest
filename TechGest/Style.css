@@ -17,7 +17,7 @@ section{
 .title{
     min-height: 100vh;
     background: 
-    linear-gradient(217deg, rgba(0,0,0,.6), rgba(7,16,19, 1)),
+    linear-gradient(180deg, rgba(0,0,0,.6), rgba(7,16,19, 1)),
      url('bgTitle.svg') no-repeat center center;
     background-size: cover;
     background-position: center;
@@ -129,7 +129,7 @@ section{
 
 }
 .client-text{
-    padding-top: 30vh;
+    align-self: center;
     font-weight: 300;
     text-align: center;
     max-width: 40vw;
@@ -139,6 +139,9 @@ section{
 .Chisiamo{
     display:flex;
     padding-top: 10vh;
+    min-height: 100vh;
+    background:linear-gradient(180deg, rgba(0,0,0,.6), rgba(7,16,19, 1)),url('BgChiSiamo.svg');
+    background-size: cover;
 }
 
 .Chisiamo h1{
@@ -161,6 +164,20 @@ section{
 }
 
 
+
+.Chisiamo-text{
+    align-self: center;
+    max-width: 40vw;
+    padding-left: 30vh;
+}
+
+
+
+.Copi{
+    height: 100vh;
+    background-color: #4CB0C8;
+}
+
 .red{
     background: #DFE0E2;
 }
@@ -172,7 +189,7 @@ section{
 
 
 
-.custom-shape-divider-top-1650463103 {
+.wave1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -181,7 +198,7 @@ section{
     line-height: 0;
 }
 
-.custom-shape-divider-top-1650463103 svg {
+.wave1 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
@@ -189,11 +206,13 @@ section{
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1650463103 .shape-fill {
+.wave1 .shape-fill {
     fill: #071013;
 }
 
-.custom-shape-divider-top-1650462789 {
+
+
+.wave2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -202,40 +221,18 @@ section{
     line-height: 0;
 }
 
-.custom-shape-divider-top-1650462789 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 79px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-top-1650462789 .shape-fill {
-    fill: #DFE0E2;
-}
-
-
-.custom-shape-divider-top-1650472037 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1650472037 svg {
+.wave2 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 76px;
 }
 
-.custom-shape-divider-top-1650472037 .shape-fill {
+.wave2 .shape-fill {
     fill: #23B5D3;
 }
 
-.custom-shape-divider-bottom-1650472192 {
+.wave3 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -245,7 +242,7 @@ section{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1650472192 svg {
+.wave3 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
@@ -253,7 +250,30 @@ section{
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1650472192 .shape-fill {
+.wave3 .shape-fill {
     fill: #23B5D3;
 }
 
+
+
+.custom-shape-divider-bottom-1650483930 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1650483930 svg {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    height: 137px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1650483930 .shape-fill {
+    fill: #4CB0C8;
+}
