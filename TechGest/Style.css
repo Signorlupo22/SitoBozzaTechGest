@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    color: #DFE0E2;
+    background: #071013;
+    font-family: 'Inter', sans-serif;
+    max-width: 100%
+}
+section{
+    position: relative;
+    display: flex;
+    min-height: 100px;
+    padding: 100px,20vw;
+}
+
+
+
+.title{
+    min-height: 100vh;
+    background: 
+    linear-gradient(217deg, rgba(0,0,0,.6), rgba(7,16,19, 1)),
+     url('bgTitle.svg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+.Title{
+    padding-top: 30vh;
+    font-size: 150px;
+    margin: 0;
+    margin-left: 10vh;
+
+}
+.Title-text{
+    font-size: 80px;
+    margin: 0;
+    margin-left: 10vh;
+}
+
+
+
+.Service{
+    min-height: 115vh;
+    color: #071013;
+    background: url('BgService.svg');
+    background-size: cover;
+}
+.Service h1{
+    Font-size: 100px;
+    border: #23B5D3;
+    border-width: 10px;
+    padding-left: 0.5em;
+    margin-left: 10vw;
+    padding-top: 10vh;
+
+}
+
+
+
+
+
+.Title-service{
+    background: url('cube.svg');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: bottom;
+    margin-top: 5vh;
+    
+}
+
+.Software{
+    background: url('cube.svg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position-x: 0em;
+    background-position-y: 0.8em;
+
+
+    border: #23B5D3;
+    border-width: 10px;
+    padding-left: 0.5em;
+    margin-left: 10vw;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns:auto;
+
+}
+
+
+.title-Software{
+    display: flex;
+    font-size: 20px;
+}
+.text-Software h3{
+    font-size: 20px;
+    font-weight: 200;
+    display:grid;
+    max-width: 20vw;
+    margin-top: 0;
+}
+.Item-service{
+    display:flex;
+}
+.Item-service2{
+    display:flex;
+    padding-top: 10vh;
+}
+
+
+.client{
+    min-height: 60vh;
+    display: flex;
+}
+
+.client-title{
+    padding-top: 20vh;
+    border-width: 10px;
+    font-size: 25px;
+    display: grid;
+    border-image:linear-gradient(90deg, rgb(7,16,19), rgb(35,181,211)) 0.5;
+    border-bottom-style: solid;
+    border-width: 10px;
+    Font-size: 100px;
+    border-width: 10px;
+    padding-left: 0.5em;
+    margin-left: 10vw;
+    padding-top: 10vh;
+
+    
+
+}
+.client-text{
+    padding-top: 30vh;
+    font-weight: 300;
+    text-align: center;
+    max-width: 40vw;
+    padding-left: 10vw;
+}
+
+.Chisiamo{
+    display:flex;
+    padding-top: 10vh;
+}
+
+.Chisiamo h1{
+    Font-size: 100px;
+    border: #23B5D3;
+    border-width: 10px;
+    padding-left: 0.5em;
+    margin-left: 10vw;
+    padding-top: 10vh;
+}
+
+.Chisimao-title{
+    background: url('cube.svg');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    background-position-y: bottom;
+    margin-top: 5vh;
+    
+}
+
+
+.red{
+    background: #DFE0E2;
+}
+.blue{
+    background: #23B5D3;
+}
+
+
+
+
+
+.custom-shape-divider-top-1650463103 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1650463103 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 79px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1650463103 .shape-fill {
+    fill: #071013;
+}
+
+.custom-shape-divider-top-1650462789 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1650462789 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 79px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1650462789 .shape-fill {
+    fill: #DFE0E2;
+}
+
+
+.custom-shape-divider-top-1650472037 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1650472037 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+}
+
+.custom-shape-divider-top-1650472037 .shape-fill {
+    fill: #23B5D3;
+}
+
+.custom-shape-divider-bottom-1650472192 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1650472192 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1650472192 .shape-fill {
+    fill: #23B5D3;
+}
+
