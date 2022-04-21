@@ -139,7 +139,7 @@ section{
 .Chisiamo{
     display:flex;
     padding-top: 10vh;
-    min-height: 100vh;
+    min-height: 60vh;
     background:linear-gradient(180deg, rgba(0,0,0,.6), rgba(7,16,19, 1)),url('BgChiSiamo.svg');
     background-size: cover;
 }
@@ -186,16 +186,60 @@ section{
     width: 95vw;
 }
 
+
+
+
+/*Foto*/
+
+
+.main-carousel{
+}
+
+.carousel-cell{
+    height: 50vh;
+    width: 30vw;
+    background: #DFE0E2;
+    border-radius: 20px;
+    margin-left: 40px;
+    display: flex;
+    color: #031926;
+    
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.carousel-cell img{
+    height: 200px;
+    width: 200px;
+    background-color: #031926;
+    border-radius: 50%;
+    margin-top: 4vh;
+    margin-left: 1vw;
+}
+
+.carousel-cell h1{
+    font-size: 70px;
+    width: 100%;
+    padding-left: 40px;
+    background: url('cube.svg');
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: 40%;
+    margin-top: 5vh;
+    margin-bottom: 0%;
+    text-align: center;
+}
+.carousel-cell p{
+    font-size: 30px;
+}
+
 .red{
     background: #DFE0E2;
 }
 .blue{
     background: #23B5D3;
 }
-
-
-
-
 
 .wave1 {
     position: absolute;
